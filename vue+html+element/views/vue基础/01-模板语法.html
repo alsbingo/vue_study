@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="../../js/vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <h2>{{message}}</h2>
+    <!-- <custom-com :title="title"></custom-com> -->
+  </div>
+  <template id="tem">
+    <div>
+      <h2>{{title}}</h2>
+    </div>
+  </template>
+      
+  <script>
+
+    Vue.component('custom-com', {
+      template: "#tem",
+      props: ['title']
+    })
+
+    new Vue({
+      el: "#app",
+      data: {
+        message: "你好，我是vue基础：模板语法的学习",
+        title:"hello i'm component title!"
+      }
+    })
+
+
+  </script>
+</body>
+
+</html>
