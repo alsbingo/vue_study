@@ -1,0 +1,21 @@
+{
+  "nav":{
+    "home":"首页",
+    "main":"主页",
+    "weather":"天气",
+    "hello":"你好",
+    "logout":"退出",
+    "slot":"插槽",
+    "slot1":"插槽1",
+    "slot2":"插槽2",
+    "axios":"Axios",
+    "router":"路由",
+    "i18n":"i18n"
+  },
+  "vue":{
+    "vue":"Vue",
+    "vuex":"Vuex",
+    "vuerouter":"Vue-Router",
+    "base":"基础概念"
+  }
+}

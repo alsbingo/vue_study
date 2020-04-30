@@ -1,0 +1,21 @@
+{
+  "nav":{
+    "home":"Home",
+    "main":"Main",
+    "weather":"Weather",
+    "hello":"Hello",
+    "logout":"Logout",
+    "slot":"Slot",
+    "slot1":"Slot1",
+    "slot2":"Slot2",
+    "axios":"Axios",
+    "router":"Router",
+    "i18n":"i18n"
+  },
+  "vue":{
+    "vue":"Vue",
+    "vuex":"Vuex",
+    "vuerouter":"Vue-Router",
+    "base":"Base"
+  }
+}
